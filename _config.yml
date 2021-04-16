@@ -1,0 +1,38 @@
+# Site settings
+title: Dustin Mooney
+email: hello@dustinmooney.com
+url: https://dustinmooney.com
+description: "The personal website of Dustin Mooney. Dustin is an expert in business and marketing strategy, political and non-profit consulting, and political, media, and current events commentary."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: Dustin Mooney
+
+# Data
+logo: img/logo.png
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/DustinMooney
+  - title: facebook
+    url: https://www.facebook.com/thedustinwmooney
+  - title: stack-exchange
+    url: https://pressingissues.substack.com/
+  - title: linkedin
+    url:  https://www.linkedin.com/in/dustinmooney/
+  - title: github
+    url: https://github.com/dustinwmooney
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Plugin
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
