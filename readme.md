@@ -1,13 +1,4 @@
-<<<<<<< HEAD
-# Dustin mooney
-=======
-# Dustin Mooney
->>>>>>> c1d58110c2c49db7cd6452f75fec5878e3423902
+# Dustin Mooney - The Website
+from Dustin Mooney
 
-Jekyll theme based on [Grayscale bootstrap theme ](http://ironsummitmedia.github.io/startbootstrap-grayscale/)
-
-## Demo
-View this jekyll theme in action [here](https://jeromelachaud.github.io/grayscale-theme)
-
-=========
-For more details, read the [documentation](http://jekyllrb.com/)
+Welcome to the personal website of Dustin Mooney. Dustin is a partner at Mooney & Company. He provides regular commentary and opinions on news, politics, and world events through his newsletter, via SubStack. You can find that here: https://pressingissues.substack.com/. For questions, please feel free to reach out to Dustin and his team at <bold>hello [at] mooney [dot] me</bold>. Please enjoy!
