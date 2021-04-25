@@ -160,6 +160,7 @@ a:focus {
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .intro .intro-body .brand-heading {
