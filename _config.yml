@@ -20,14 +20,14 @@ favicon_image: favicon.ico
 social:
   - title: twitter
     url: https://twitter.com/DustinMooney
-  - title: facebook
-    url: https://www.facebook.com/thedustinwmooney
+  # - title: facebook
+  #   url: https://www.facebook.com/thedustinwmooney
   - title: stack-exchange
     url: https://pressingissues.substack.com/
   - title: linkedin
     url:  https://www.linkedin.com/in/dustinmooney/
-  - title: github
-    url: https://github.com/dustinwmooney
+  # - title: github
+  #   url: https://github.com/dustinwmooney
 
 # Build settings
 markdown: kramdown
