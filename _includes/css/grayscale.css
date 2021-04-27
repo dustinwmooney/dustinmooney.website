@@ -177,6 +177,7 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
     color: #fff;
     background: url(./img/intro-bg.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
