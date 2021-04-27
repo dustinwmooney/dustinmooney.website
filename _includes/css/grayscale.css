@@ -324,12 +324,6 @@ a:focus {
     -o-background-size: cover;
 }
 
-.meaning-section {
-    display: table-cell;
-    vertical-align: middle;
-    background: #666666;
-}
-
 .meaning-section h1, h2 {
     text-rendering: optimizeLegibility;
     text-align: center;
