@@ -299,7 +299,7 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.download-section, {
     width: 100%;
     padding: 50px 0;
     color: #fff;
@@ -309,6 +309,58 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.meaning-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(/img/dustin.jpg) no-repeat center center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.meaning-section h1, h2 {
+    text-rendering: optimizeLegibility;
+    text-align: center;
+    white-space: pre-wrap;
+    text-transform: none;
+}
+
+.meaning-section h1 {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 99px;
+    letter-spacing: 0em;
+    line-height: 1em;
+    text-transform: none;
+    margin: .67em 0;
+}
+
+.meaning-section p {
+    font-weight: 800;
+    font-size: 25px;
+    letter-spacing: .01em;
+    line-height: 1.6em;
+}
+
+.meaning-section a {
+	font-weight: 400;
+    font-size: 16px;
+    letter-spacing: .2em;
+    line-height: 1.2em;
+    padding-bottom: .05em;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(255,255,255,.3);
+    -webkit-transition: border-color .15s ease-out,color .15s ease-out;
+    -moz-transition: border-color .15s ease-out,color .15s ease-out;
+    -ms-transition: border-color .15s ease-out,color .15s ease-out;
+    -o-transition: border-color .15s ease-out,color .15s ease-out;
+    transition: border-color .15s ease-out,color .15s ease-out;
 }
 
 #map {
@@ -324,6 +376,10 @@ a:focus {
 
     .download-section {
         padding: 150px 0;
+    }
+
+    .meaning-section {
+        padding: 250px 0;
     }
 
     #map {
@@ -423,7 +479,11 @@ body {
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  .mmargin30 {
-	margin-top:30px;
-}
+    .mmargin30 {
+		margin-top:30px;
+	}
+
+	.meaning-section h1 {
+	    font-size: 72px;
+	}
 }
