@@ -323,6 +323,7 @@ a:focus {
     text-rendering: optimizeLegibility;
     text-align: center;
     white-space: pre-wrap;
+    text-transform: uppercase;
 }
 
 .meaning-section h1 {
