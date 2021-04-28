@@ -322,6 +322,7 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    opacity: 0.8;
 }
 
 .meaning-section h1, h2 {
