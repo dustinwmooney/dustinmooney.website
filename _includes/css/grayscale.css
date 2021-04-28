@@ -348,22 +348,6 @@ a:focus {
     line-height: 1.6em;
 }
 
-.meaning-section a {
-	font-weight: 400;
-    font-size: 16px;
-    letter-spacing: .2em;
-    line-height: 1.2em;
-    padding-bottom: .05em;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: rgba(255,255,255,.3);
-    -webkit-transition: border-color .15s ease-out,color .15s ease-out;
-    -moz-transition: border-color .15s ease-out,color .15s ease-out;
-    -ms-transition: border-color .15s ease-out,color .15s ease-out;
-    -o-transition: border-color .15s ease-out,color .15s ease-out;
-    transition: border-color .15s ease-out,color .15s ease-out;
-}
-
 #map {
     width: 100%;
     height: 200px;
