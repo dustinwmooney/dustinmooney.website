@@ -1,25 +1,27 @@
     <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact</h2>
-                <p>Want to get in touch with Dustin? Feel free to reach out to him at the email below. You can also connect with him on social media.</p>
-                <p><a href="mailto:hello@dustinmooney.com">HELLO@DUSTINMOONEY.COM</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    {% for network in site.social %}
-                    {% if network.title != "stack-exchange" %}
-                    <li>
-                        <a href="{{ network.url }}" class="btn btn-default btn-lg" rel="noopener"><i class="fab fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
-                    </li>
-                    {% endif %}
-                    {% if network.title == "stack-exchange" %}
+    <div class="color-swap">
+	    <section id="contact" class="container content-section text-center">
+	        <div class="row">
+	            <div class="col-lg-8 col-lg-offset-2">
+	                <h2>Contact</h2>
+	                <p>Want to get in touch with Dustin? Feel free to reach out to him at the email below. You can also connect with him on social media.</p>
+	                <p><a href="mailto:hello@dustinmooney.com">HELLO@DUSTINMOONEY.COM</a>
+	                </p>
+	                <ul class="list-inline banner-social-buttons">
+	                    {% for network in site.social %}
+	                    {% if network.title != "stack-exchange" %}
 	                    <li>
-	                        <a href="{{ network.url }}" class="btn btn-default btn-lg" rel="noopener"><i class="fab fa-{{ network.title }} fa-fw"></i> <span class="network-name">Commentary</span></a>
+	                        <a href="{{ network.url }}" class="btn btn-default btn-lg" rel="noopener"><i class="fab fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
 	                    </li>
-                    {% endif %}
-                    {% endfor %}
-                </ul>
-            </div>
-        </div>
-    </section>
+	                    {% endif %}
+	                    {% if network.title == "stack-exchange" %}
+		                    <li>
+		                        <a href="{{ network.url }}" class="btn btn-default btn-lg" rel="noopener"><i class="fab fa-{{ network.title }} fa-fw"></i> <span class="network-name">Commentary</span></a>
+		                    </li>
+	                    {% endif %}
+	                    {% endfor %}
+	                </ul>
+	            </div>
+	        </div>
+	    </section>
+    </div>
