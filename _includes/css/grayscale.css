@@ -145,6 +145,22 @@ a:focus {
     background-color: rgba(255,255,255,.3);
 }
 
+a.nav-link {
+	padding: 15px 5px !important;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .nav-item {
+		display: none !important;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	 .nav-item {
+		display: none !important;
+	}
+}
+
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
