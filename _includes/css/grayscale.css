@@ -153,6 +153,23 @@ a.nav-link {
 	padding: 15px 5px !important;
 }
 
+.ml-5 {
+	padding-left: 30px;
+}
+
+i.fab.fa-linkedin:hover a:hover, i.fab.fa-linkedin:hover a:focus, i.fab.fa-linkedin:hover a.active {
+	background: #1c66c2 !important;
+
+}
+
+.navbar-custom .nav li.twitter a:hover {
+	background: #44ccf6;
+}
+
+.navbar-custom .nav li.mail a:hover {
+	background: #F7B401;
+}
+
 @media (min-width: 481px) and (max-width: 767px) {
     .nav-item {
 		display: none !important;
@@ -275,6 +292,19 @@ a.nav-link {
     -moz-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.btn-dark:hover {
+    border: 1px solid #219ab3;
+    outline: 0;
+    color: #000000;
+    background-color: #219ab3;
 }
 
 @-webkit-keyframes pulse {

@@ -10,12 +10,12 @@
                     {% for network in site.social %}
                     {% if network.title != "stack-exchange" %}
                     <li>
-                        <a href="{{ network.url }}" class="btn btn-primary btn-lg" rel="noopener" target="_blank"><i class="fab fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
+                        <a href="{{ network.url }}" class="btn btn-dark btn-lg" rel="noopener" target="_blank"><i class="fab fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
                     </li>
                     {% endif %}
                     {% if network.title == "stack-exchange" %}
 	                    <li>
-	                        <a href="{{ network.url }}" class="btn btn-primary btn-lg" rel="noopener" target="_blank"><i class="fab fa-{{ network.title }} fa-fw"></i> <span class="network-name">Commentary</span></a>
+	                        <a href="{{ network.url }}" class="btn btn-dark btn-lg" rel="noopener" target="_blank"><i class="fab fa-{{ network.title }} fa-fw"></i> <span class="network-name">Commentary</span></a>
 	                    </li>
                     {% endif %}
                     {% endfor %}
