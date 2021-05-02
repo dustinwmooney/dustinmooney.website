@@ -113,7 +113,8 @@ a:focus {
 }
 
 .navbar-toggle {
-	background-color: #eee !important;
+	background-color: #000 !important;
+	color: #fff;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle {
