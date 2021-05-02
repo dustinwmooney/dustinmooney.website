@@ -98,6 +98,7 @@ a:focus {
     text-transform: uppercase;
     font-family: 'Arvo', Arial, sans-serif;
     background-color: {{ site.color.primary-dark }};
+    border-bottom: 2px #000;
 }
 
 .navbar-brand {
