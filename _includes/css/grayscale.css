@@ -98,6 +98,7 @@ a:focus {
     text-transform: uppercase;
     font-family: 'Arvo', Arial, sans-serif;
     background-color: {{ site.color.primary-dark }};
+    border-bottom: 2px #000;
 }
 
 .navbar-brand {
@@ -113,7 +114,8 @@ a:focus {
 }
 
 .navbar-toggle {
-	background-color: #eee !important;
+	background-color: #000 !important;
+	color: #fff;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle {
@@ -301,8 +303,8 @@ i.fa.fa-envelope:hover, i.fa.fa-envelope:hover, i.fa.fa-envelope:hover {
 
 .btn-dark {
     color: #fff;
-    background-color: #343a40;
-    border-color: #343a40;
+    background-color: #000;
+    border-color: #000;
 }
 
 .btn-dark:hover {
@@ -388,12 +390,12 @@ i.fa.fa-envelope:hover, i.fa.fa-envelope:hover, i.fa.fa-envelope:hover {
     letter-spacing: 0em;
     line-height: 1em;
     text-transform: none;
-    margin: .67em 0;
+    margin: 25px 0;
 }
 
 .meaning-section p {
-    font-weight: 800;
-    font-size: 25px;
+    font-weight: 500;
+    font-size: 26px;
     letter-spacing: .01em;
     line-height: 1.6em;
 }
@@ -467,7 +469,7 @@ ul.banner-social-buttons li {
 }
 
 footer {
-    padding: 50px 0;
+    padding: 35px 0;
     text-transform: uppercase;
 }
 
