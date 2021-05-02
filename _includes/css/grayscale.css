@@ -153,21 +153,27 @@ a.nav-link {
 	padding: 15px 5px !important;
 }
 
+a.nav-link:hover {
+    background-color: #000000 !important;
+}
+
 .ml-5 {
 	padding-left: 30px;
 }
 
-i.fab.fa-linkedin:hover a:hover, i.fab.fa-linkedin:hover a:focus, i.fab.fa-linkedin:hover a.active {
-	background: #1c66c2 !important;
-
+i.fab.fa-linkedin:hover, i.fab.fa-linkedin:hover, i.fab.fa-linkedin:hover {
+	color: #1c66c2 !important;
+	background-color: #ffffff !important;
 }
 
-.navbar-custom .nav li.twitter a:hover {
-	background: #44ccf6;
+i.fab.fa-twitter:hover, i.fab.fa-twitter:hover, i.fab.fa-twitter:hover {
+	color: #44ccf6 !important;
+	background-color: #000000 !important;
 }
 
-.navbar-custom .nav li.mail a:hover {
-	background: #F7B401;
+i.fa.fa-envelope:hover, i.fa.fa-envelope:hover, i.fa.fa-envelope:hover {
+	color: #F7B401 !important;
+	background-color: #000000 !important;
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -242,7 +248,6 @@ i.fab.fa-linkedin:hover a:hover, i.fab.fa-linkedin:hover a:focus, i.fab.fa-linke
 @media(min-width:767px) {
     .intro {
         height: 100%;
-        padding: 0;
     }
 
     .intro .intro-body .brand-heading {
