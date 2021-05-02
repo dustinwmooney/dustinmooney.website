@@ -296,8 +296,8 @@ i.fab.fa-linkedin:hover a:hover, i.fab.fa-linkedin:hover a:focus, i.fab.fa-linke
 
 .btn-dark {
     color: #fff;
-    background-color: #343a40;
-    border-color: #343a40;
+    background-color: #000;
+    border-color: #000;
 }
 
 .btn-dark:hover {
