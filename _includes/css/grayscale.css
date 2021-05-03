@@ -250,6 +250,7 @@ i.fa.fa-envelope:hover, i.fa.fa-envelope:hover, i.fa.fa-envelope:hover {
 @media(min-width:767px) {
     .intro {
         height: 100%;
+        padding-bottom: 5px;
     }
 
     .intro .intro-body .brand-heading {
