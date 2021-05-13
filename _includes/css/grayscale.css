@@ -144,11 +144,15 @@ a:focus {
     transition: background .3s ease-in-out;
 }
 
-.navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus,
 .navbar-custom .nav li a.active {
     outline: 0;
     background-color: rgba(255,255,255,.3);
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+	outline: 0;
+    background-color: #000000 !important;
 }
 
 a.nav-link {
@@ -174,7 +178,7 @@ i.fab.fa-twitter:hover, i.fab.fa-twitter:hover, i.fab.fa-twitter:hover {
 }
 
 i.fa.fa-envelope:hover, i.fa.fa-envelope:hover, i.fa.fa-envelope:hover {
-	color: #337ab7 !important;
+	color: #FF0000 !important;
 	background-color: #000000 !important;
 }
 
