@@ -153,6 +153,7 @@ a:focus {
 .navbar-custom .nav li a:focus {
 	outline: 0;
     background-color: #000000 !important;
+    font-weight: bold;
 }
 
 a.nav-link {
